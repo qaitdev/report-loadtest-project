@@ -1,0 +1,34 @@
+{
+  "api.pelaporan.pikobar.jabarprov.go.id/api/users?page=1&limit=30&search=&code_district_city=32.77&address_subdistrict_code=&address_village_code=&role=" : {
+    "transaction" : "api.pelaporan.pikobar.jabarprov.go.id/api/users?page=1&limit=30&search=&code_district_city=32.77&address_subdistrict_code=&address_village_code=&role=",
+    "sampleCount" : 21381,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1176.0915298629607,
+    "medianResTime" : 649.0,
+    "minResTime" : 35.0,
+    "maxResTime" : 3643.0,
+    "pct1ResTime" : 2664.0,
+    "pct2ResTime" : 2822.0,
+    "pct3ResTime" : 3209.0,
+    "throughput" : 70.81348904065126,
+    "receivedKBytesPerSec" : 1656.8554393820336,
+    "sentKBytesPerSec" : 47.57781294918757
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 21381,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1176.0915298629607,
+    "medianResTime" : 649.0,
+    "minResTime" : 35.0,
+    "maxResTime" : 3643.0,
+    "pct1ResTime" : 2664.0,
+    "pct2ResTime" : 2822.0,
+    "pct3ResTime" : 3209.0,
+    "throughput" : 70.81348904065126,
+    "receivedKBytesPerSec" : 1656.8554393820336,
+    "sentKBytesPerSec" : 47.57781294918757
+  }
+}

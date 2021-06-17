@@ -1,0 +1,34 @@
+{
+  "api/rdt/applicants?page=1&per_page=50&sort_by=registration_at&sort_order=desc&status=approved" : {
+    "transaction" : "api/rdt/applicants?page=1&per_page=50&sort_by=registration_at&sort_order=desc&status=approved",
+    "sampleCount" : 100,
+    "errorCount" : 2,
+    "errorPct" : 2.0,
+    "meanResTime" : 1321.640000000001,
+    "medianResTime" : 909.5,
+    "minResTime" : 125.0,
+    "maxResTime" : 11246.0,
+    "pct1ResTime" : 1617.5000000000002,
+    "pct2ResTime" : 4612.749999999995,
+    "pct3ResTime" : 11201.819999999978,
+    "throughput" : 1.0047120997478172,
+    "receivedKBytesPerSec" : 114.11254133448372,
+    "sentKBytesPerSec" : 2.506874428569993
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 100,
+    "errorCount" : 2,
+    "errorPct" : 2.0,
+    "meanResTime" : 1321.640000000001,
+    "medianResTime" : 909.5,
+    "minResTime" : 125.0,
+    "maxResTime" : 11246.0,
+    "pct1ResTime" : 1617.5000000000002,
+    "pct2ResTime" : 4612.749999999995,
+    "pct3ResTime" : 11201.819999999978,
+    "throughput" : 1.0047120997478172,
+    "receivedKBytesPerSec" : 114.11254133448372,
+    "sentKBytesPerSec" : 2.506874428569993
+  }
+}

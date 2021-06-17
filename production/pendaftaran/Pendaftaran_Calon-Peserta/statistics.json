@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 100,
+    "errorCount" : 8,
+    "errorPct" : 8.0,
+    "meanResTime" : 1312.8099999999997,
+    "medianResTime" : 506.5,
+    "minResTime" : 121.0,
+    "maxResTime" : 12242.0,
+    "pct1ResTime" : 4138.600000000005,
+    "pct2ResTime" : 6701.349999999991,
+    "pct3ResTime" : 12229.129999999994,
+    "throughput" : 1.0095299628492973,
+    "receivedKBytesPerSec" : 70.61636457534122,
+    "sentKBytesPerSec" : 2.5139662160797935
+  },
+  "api/rdt/applicants?page=1&per_page=50&sort_by=registration_at&sort_order=desc&status=new" : {
+    "transaction" : "api/rdt/applicants?page=1&per_page=50&sort_by=registration_at&sort_order=desc&status=new",
+    "sampleCount" : 100,
+    "errorCount" : 8,
+    "errorPct" : 8.0,
+    "meanResTime" : 1312.8099999999997,
+    "medianResTime" : 506.5,
+    "minResTime" : 121.0,
+    "maxResTime" : 12242.0,
+    "pct1ResTime" : 4138.600000000005,
+    "pct2ResTime" : 6701.349999999991,
+    "pct3ResTime" : 12229.129999999994,
+    "throughput" : 1.0095299628492973,
+    "receivedKBytesPerSec" : 70.61636457534122,
+    "sentKBytesPerSec" : 2.5139662160797935
+  }
+}
