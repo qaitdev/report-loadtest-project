@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.5424909966792947, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.5424909966792947, 500, 1500, "api.pelaporan.pikobar.jabarprov.go.id/api/users?page=1&limit=30&search=&code_district_city=32.77&address_subdistrict_code=&address_village_code=&role="], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.3096564531104921, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.5201421800947867, 500, 1500, "https://sapawarga.jabarprov.go.id/api/v1/staff/me"], "isController": false}, {"data": [0.0, 500, 1500, "https://sapawarga.jabarprov.go.id/api/v1/staff/login"], "isController": false}, {"data": [0.06060606060606061, 500, 1500, "https://sapawarga.jabarprov.go.id/api/v1/user-posts?sort_by=created_at&sort_order=descending&page=1&limit=10"], "isController": false}, {"data": [0.5513513513513514, 500, 1500, "https://sapawarga.jabarprov.go.id/api/v1/categories?type=user_post"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 21381, 0, 0.0, 1176.0915298629607, 35, 3643, 649.0, 2664.0, 2822.0, 3209.0, 70.81348904065126, 1656.8554393820336, 47.57781294918757], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["api.pelaporan.pikobar.jabarprov.go.id/api/users?page=1&limit=30&search=&code_district_city=32.77&address_subdistrict_code=&address_village_code=&role=", 21381, 0, 0.0, 1176.0915298629607, 35, 3643, 649.0, 2664.0, 2822.0, 3209.0, 70.81348904065126, 1656.8554393820336, 47.57781294918757], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 1077, 0, 0.0, 19973.575673166197, 64, 151783, 2487.0, 72782.80000000015, 117734.29999999997, 134442.5, 3.563004304056267, 11.916709760299463, 3.3653934626149207], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["https://sapawarga.jabarprov.go.id/api/v1/staff/me", 422, 0, 0.0, 7327.35071090047, 64, 37889, 608.0, 25413.3, 31247.199999999993, 34276.229999999996, 1.696939477165709, 2.3946069770551266, 1.7947123571977177], "isController": false}, {"data": ["https://sapawarga.jabarprov.go.id/api/v1/staff/login", 272, 0, 0.0, 55568.20220588234, 2412, 151783, 27815.0, 127056.40000000001, 133071.44999999998, 148392.22999999992, 0.8998488121664853, 1.1634763938558852, 0.5008924052098599], "isController": false}, {"data": ["https://sapawarga.jabarprov.go.id/api/v1/user-posts?sort_by=created_at&sort_order=descending&page=1&limit=10", 198, 0, 0.0, 10543.23737373738, 522, 42705, 2491.5, 31627.899999999994, 36033.149999999994, 41319.98999999999, 0.7872262599596049, 8.828852463660365, 0.8779417860096376], "isController": false}, {"data": ["https://sapawarga.jabarprov.go.id/api/v1/categories?type=user_post", 185, 0, 0.0, 6579.929729729726, 73, 37102, 582.0, 25967.0, 30119.399999999994, 36392.499999999985, 0.7536102002158991, 1.7692176966006068, 0.8095422072631728], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 21381, 0, null, null, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 1077, 0, null, null, null, null, null, null, null, null, null, null], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
