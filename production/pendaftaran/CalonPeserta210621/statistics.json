@@ -1,0 +1,50 @@
+{
+  "CalonPeserta" : {
+    "transaction" : "CalonPeserta",
+    "sampleCount" : 100,
+    "errorCount" : 3,
+    "errorPct" : 3.0,
+    "meanResTime" : 475.06,
+    "medianResTime" : 436.5,
+    "minResTime" : 121.0,
+    "maxResTime" : 1636.0,
+    "pct1ResTime" : 557.8,
+    "pct2ResTime" : 739.4499999999996,
+    "pct3ResTime" : 1634.5599999999993,
+    "throughput" : 1.0317894324126333,
+    "receivedKBytesPerSec" : 73.39713728409806,
+    "sentKBytesPerSec" : 2.465614004993861
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 200,
+    "errorCount" : 3,
+    "errorPct" : 1.5,
+    "meanResTime" : 333.80500000000006,
+    "medianResTime" : 273.0,
+    "minResTime" : 121.0,
+    "maxResTime" : 2368.0,
+    "pct1ResTime" : 522.9,
+    "pct2ResTime" : 705.2999999999994,
+    "pct3ResTime" : 1648.8700000000001,
+    "throughput" : 2.0131053156045855,
+    "receivedKBytesPerSec" : 74.91939518452627,
+    "sentKBytesPerSec" : 3.04521497448389
+  },
+  "Login" : {
+    "transaction" : "Login",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 192.54999999999993,
+    "medianResTime" : 142.0,
+    "minResTime" : 124.0,
+    "maxResTime" : 2368.0,
+    "pct1ResTime" : 190.50000000000003,
+    "pct2ResTime" : 240.29999999999984,
+    "pct3ResTime" : 2360.8099999999963,
+    "throughput" : 1.0115314586283632,
+    "receivedKBytesPerSec" : 3.3339049539753187,
+    "sentKBytesPerSec" : 0.6430732222334614
+  }
+}

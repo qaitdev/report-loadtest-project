@@ -1,0 +1,50 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 200,
+    "errorCount" : 1,
+    "errorPct" : 0.5,
+    "meanResTime" : 688.3149999999996,
+    "medianResTime" : 251.0,
+    "minResTime" : 121.0,
+    "maxResTime" : 4472.0,
+    "pct1ResTime" : 2067.0,
+    "pct2ResTime" : 3170.3999999999996,
+    "pct3ResTime" : 4404.810000000004,
+    "throughput" : 2.0161087085815668,
+    "receivedKBytesPerSec" : 32.03493372987672,
+    "sentKBytesPerSec" : 3.0281007751937987
+  },
+  "Kegiatan" : {
+    "transaction" : "Kegiatan",
+    "sampleCount" : 100,
+    "errorCount" : 1,
+    "errorPct" : 1.0,
+    "meanResTime" : 712.2399999999999,
+    "medianResTime" : 276.5,
+    "minResTime" : 121.0,
+    "maxResTime" : 3990.0,
+    "pct1ResTime" : 2039.3,
+    "pct2ResTime" : 3170.3999999999996,
+    "pct3ResTime" : 3986.7999999999984,
+    "throughput" : 1.022244030094864,
+    "receivedKBytesPerSec" : 29.1166545754365,
+    "sentKBytesPerSec" : 2.420841575175826
+  },
+  "Login" : {
+    "transaction" : "Login",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 664.39,
+    "medianResTime" : 144.5,
+    "minResTime" : 121.0,
+    "maxResTime" : 4472.0,
+    "pct1ResTime" : 2412.1,
+    "pct2ResTime" : 3394.3499999999967,
+    "pct3ResTime" : 4471.37,
+    "throughput" : 1.0106420609012905,
+    "receivedKBytesPerSec" : 3.3309735893963435,
+    "sentKBytesPerSec" : 0.6425077945768947
+  }
+}
